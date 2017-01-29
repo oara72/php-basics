@@ -1,0 +1,37 @@
+
+
+form label {  display: inline-block;  width: 170px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+/*option button styles*/
+fieldset.optionGroup {
+	border-width: 0px;
+	display: inline-block;
+}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 0px 0px 0px;
+	width: 10px;
+	font-weight: normal;
+}
+
+fieldset.optionGroup input {
+	display: inline;
+	float: none;
+	margin: 0px 0px 0px 0px;
+	width: 20px;
+}
+
+/*text area styles*/
+textarea {
+	display: inline;
+	font-size: 0.9em;
+	float:none;
+	height: 40px;
+	margin: 0px 0px;
+	width: 200px;
+}
