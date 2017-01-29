@@ -1,0 +1,125 @@
+header, section, aside, footer * {  
+	display: inline-block; 
+	position: relative;   
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background-color: white;
+	width: 950px;
+}
+
+header {
+	clear: left;
+	float: left;
+	background-color: white;
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 1.5px;
+	height: 70px;
+}
+
+header > h2 {   
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: silver;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+
+nav.horizontal { 
+	clear:left;                                  
+}
+
+nav.horizontal ul {
+	line-height: 2em;
+	list-style: none;
+	padding-left: 0px;
+	}
+	
+nav.horizontal li {   
+	float: left;  
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 12.5px;
+	letter-spacing: 1px;
+   padding-left:2px;  
+   text-align: center;
+}
+
+nav.horizontal a {
+	display: block;                       
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav.horizontal a:link {
+	background-color: orange;
+	color: #ffffff;
+
+}
+
+nav.horizontal a:hover {            
+	color: white;
+	letter-spacing: 2px;
+	font-weight: bold;
+	background-color: blue;
+
+}
+
+form label {  display: inline-block;  width: 245px;
+  font-weight: bold;
+}
+
+/*option button styles*/
+fieldset.optionGroup {
+	border-width: 0px;
+	display: inline-block;
+}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 0px 0px 0px;
+	width: 10px;
+	font-weight: normal;
+}
+
+fieldset.optionGroup input {
+	display: inline;
+	float: none;
+	margin: 0px 0px 0px 0px;
+	width: 20px;
+}
+
+/*text area styles*/
+textarea {
+	display: inline;
+	font-size: 0.9em;
+	float:none;
+	height: 40px;
+	margin: 0px 0px;
+	width: 200px;
+}
+
+section {
+	clear: left;
+	float: left;
+	width: 100%;
+	margin-top:3px;
+}
+
+section img {
+	padding-left: 75px;
+}
+
+footer {
+	clear: left;
+	float: left;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+}
