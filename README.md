@@ -7,5 +7,5 @@ web development.
 >
 > ##### Reference
 > 
-> *Head First PHP and MYSQL* Beighley & Morrison. Publish by O'Reilly
+> *Head First PHP and MYSQL.* Author: Beighley & Morrison. Publish by O'Reilly
 >
