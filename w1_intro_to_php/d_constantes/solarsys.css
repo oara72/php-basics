@@ -1,0 +1,26 @@
+/*
+
+	History Style Sheet
+	Author: Oliver Rodriguez 
+	Date:   Jan 19, 2015
+
+	Filename:         solarsys.css
+	Supporting Files: 
+*/
+
+body {
+	color: rgb(255,255,255);
+	background-image: url(images/stars.gif);
+}
+
+table {
+	border-collapse:collapse;
+}
+
+img {    
+    float: left;
+    clear: left;
+    margin: 0 0 0 1em;
+}
+
+
