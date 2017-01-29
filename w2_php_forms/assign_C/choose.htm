@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oliver Rodriguez</title>
+<script src="modernizr-1.5.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<h2>Select your car</h2>
+<table>
+<tr>
+<td><img src="sell.png" alt="sell" /> </td>
+<td>
+<form action="car.php" method="POST">
+
+<label for="nameClient">Your first name:</label><br>
+<input type="text" name="nameClient" placeholder="Name" /><br>
+
+<label>Type</label>
+<select name="type">
+	<option value=""></option>
+	<option value="Corvette ZR1"> Corvette ZR1 </option>
+	<option value="Panoz Esperante GTML"> Panoz Esperante GTML </option>
+	<option value="Mullen M-11"> Mullen M-11  </option>
+	<option value="Dodge Viper SRT-10"> Dodge Viper SRT-10  </option>
+	<option value="Ford GT"> Ford GT  </option>
+</select>
+<br>
+<label for="colour">Color:</label><br>
+<input type="text" name="colour" placeholder="Red" /><br>
+
+<input type="submit" value="Submit Query"/>
+</form>
+</td>
+</body>
+</html>

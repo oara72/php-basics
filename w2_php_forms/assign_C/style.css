@@ -1,0 +1,24 @@
+body {
+	color: gray;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	list-style: none;
+	vertical-align: baseline;
+	
+	background-image: url(zr1.jpg);
+	background-size: 100%
+	
+}
+
+label {
+	color: blanchedalmond;
+	font-weight: bold;
+}
+
+form {
+	background-color: gray;
+	width: 200px;
+}
+
+
