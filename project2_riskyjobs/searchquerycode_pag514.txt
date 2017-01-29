@@ -1,0 +1,11 @@
+$search_query = "SELECT * FROM riskyjobs";
+$where_list = array();
+$user_search = $_GET['usersearch'];
+$search_words = explode(' ', $user_search);
+foreach ($search_words as $word) {
+$where_list[] = "description LIKE '%$word%'";
+}
+$where_clause = implode(' OR ', $where_list);
+if (!empty($where_clause)) {
+$search_query .= " WHERE $where_clause";
+}

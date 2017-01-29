@@ -1,0 +1,11 @@
+echo '<table border="0" cellpadding="2">';
+echo '<td>Job Title</td><td>Description</td><td>State</td><td>Date Posted</td>';
+while ($row = mysqli_fetch_array($result)) {
+echo '<tr class="results">';
+echo '<td valign="top" width="20%">' . $row['title'] . '</td>';
+echo '<td valign="top" width="50%">' . substr($row['description'], 0, 100) . '...</td>';
+echo '<td valign="top" width="10%">' . $row['state'] . '</td>';
+echo '<td valign="top" width="20%">' . substr($row['date_posted'], 0, 10)  . '</td>';
+echo '</tr>';
+}
+echo '</table>';
